@@ -1,10 +1,18 @@
 <template>
-  <main class="flex flex-col justify-center">
+  <main class="flex flex-col justify-center sm:pt-24">
     <div class="flex h-screen mt-1/3 sm:(items-center mt-0) px-4 md:px-12">
       <div class="flex flex-col space-y-[14%] sm:max-w-5xl mx-auto">
         <h1 class="font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-center">
           {{ t("Home.title") }}
         </h1>
+        <div class="flex justify-center items-center">
+          <a 
+          aria-label="link to external website discovercars"
+          href="https://www.discovercars.com/?a_aid=spainCars" rel="noopener noreferrer" target="_blank"
+           class=" p-2 text-lg rounded bg-white border-black no-underline text-gray-800 font-bold hover:bg-black hover:text-white hover:ring-1 transition ease-in-out delay-150">
+            BOOK A CAR NOW 
+          </a>
+        </div>
         <p
           class="dark:(bg-dark-900 border-dark-600 text-gray-300 opacity-100) opacity-70 bg-light-500 border-solid border-1 rounded-sm p-4 border-gray-200">
           {{ t("Home.desc") }}
