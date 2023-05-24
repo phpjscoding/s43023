@@ -73,6 +73,13 @@ const { data: articles } = await useAsyncData("articles", async () => {
     .where({ feature: { $ne: true } })
     .find();
 });
+useHead({
+     
+      meta: [
+       
+        { name: 'verify-admitad', content: '2f0908f4e3' }
+      ],
+    });
 
 const title = t("Home.Seo.title");
 const desc = t("Home.Seo.desc");
