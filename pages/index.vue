@@ -77,7 +77,11 @@ useHead({
      
       meta: [
        
-        { name: 'verify-admitad', content: '2f0908f4e3' }
+        { name: 'verify-admitad', content: '2f0908f4e3' },
+        { name:"fo-verify", content:"37d7928a-44c9-4a93-ae64-e19e02818e99"} 
+        
+
+        
       ],
     });
 
